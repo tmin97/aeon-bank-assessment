@@ -2,7 +2,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { Input } from "../@/components/ui/input";
-import "./globals.css";
 
 import { toast } from "sonner";
 import { Button } from "../@/components/ui/button";
@@ -14,7 +13,7 @@ const FormSchema = z.object({
   total: z.string(),
 });
 
-function App() {
+function Calculator() {
   const form = useForm<z.infer<typeof FormSchema>>({
     resolver: zodResolver(FormSchema),
     defaultValues: {
@@ -97,4 +96,4 @@ function App() {
   );
 }
 
-export default App;
+export default Calculator;
