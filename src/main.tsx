@@ -8,7 +8,7 @@ import Navbar from "~/answers/challenge2";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     {/* For Challenge 1 */}
-    <Calculator />
+    {/* <Calculator /> */}
     {/* For Challenge 2 */}
     {/* <Navbar /> */}
     <Toaster richColors position="top-center" />

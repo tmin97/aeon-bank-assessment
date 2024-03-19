@@ -3,9 +3,9 @@ import {
   HamburgerMenuIcon,
   MagnifyingGlassIcon,
 } from "@radix-ui/react-icons";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
-import { Input } from "~/@/components/ui/input";
+import { Input } from "../@/components/ui/input";
 
 function Navbar() {
   const [showMobileNav, setShowMobileNav] = useState(false);
