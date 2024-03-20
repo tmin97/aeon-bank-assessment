@@ -20,7 +20,19 @@ npm install
 Go to the src/index.tsx file and comment out the code for the challenge you want to run. For example, to run challenge 1, comment out the code for challenge 2. 
 
 For challenge 3, you will need to run the code in the terminal. 
+```bash
+npm install -g typescript
+```
+Then, run the following command:
+```bash
+tsc src/answers/challenge3.ts
+```
+this will create a new file called challenge3.js in the src/answers directory.
 
+Then, run the following command:
+```bash
+node src/answers/challenge3.js
+```
 
 ## Running the Code
 To run the code, use the following command:
