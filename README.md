@@ -19,7 +19,7 @@ npm install
 
 ## Before running the code
 
-Go to the src/index.tsx file and comment out the code for the challenge you want to run. For example, to run challenge 1, comment out the code for challenge 2.
+Go to the src/main.tsx file and comment out the code for the challenge you want to run. For example, to run challenge 1, comment out the code for challenge 2.
 
 For challenge 3, you will need to run the code in the terminal.
 
